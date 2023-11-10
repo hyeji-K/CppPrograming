@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		105B2D0C2AFD1C8600256FCA /* ClassAndObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D0A2AFD1C8600256FCA /* ClassAndObject.cpp */; };
 		105B2D0F2AFD27BF00256FCA /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D0D2AFD27BF00256FCA /* Person.cpp */; };
+		105B2D122AFE637400256FCA /* CounterM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D102AFE637400256FCA /* CounterM.cpp */; };
+		105B2D152AFE664600256FCA /* VecF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D132AFE664600256FCA /* VecF.cpp */; };
+		105B2D182AFE6F2A00256FCA /* NamedObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D162AFE6F2A00256FCA /* NamedObj.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +33,12 @@
 		105B2D0B2AFD1C8600256FCA /* ClassAndObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClassAndObject.hpp; sourceTree = "<group>"; };
 		105B2D0D2AFD27BF00256FCA /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 		105B2D0E2AFD27BF00256FCA /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		105B2D102AFE637400256FCA /* CounterM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CounterM.cpp; sourceTree = "<group>"; };
+		105B2D112AFE637400256FCA /* CounterM.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CounterM.hpp; sourceTree = "<group>"; };
+		105B2D132AFE664600256FCA /* VecF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VecF.cpp; sourceTree = "<group>"; };
+		105B2D142AFE664600256FCA /* VecF.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VecF.hpp; sourceTree = "<group>"; };
+		105B2D162AFE6F2A00256FCA /* NamedObj.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NamedObj.cpp; sourceTree = "<group>"; };
+		105B2D172AFE6F2A00256FCA /* NamedObj.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NamedObj.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				105B2D0B2AFD1C8600256FCA /* ClassAndObject.hpp */,
 				105B2D0D2AFD27BF00256FCA /* Person.cpp */,
 				105B2D0E2AFD27BF00256FCA /* Person.hpp */,
+				105B2D102AFE637400256FCA /* CounterM.cpp */,
+				105B2D112AFE637400256FCA /* CounterM.hpp */,
+				105B2D132AFE664600256FCA /* VecF.cpp */,
+				105B2D142AFE664600256FCA /* VecF.hpp */,
+				105B2D162AFE6F2A00256FCA /* NamedObj.cpp */,
+				105B2D172AFE6F2A00256FCA /* NamedObj.hpp */,
 			);
 			path = CppProgramming;
 			sourceTree = "<group>";
@@ -129,6 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				105B2D0F2AFD27BF00256FCA /* Person.cpp in Sources */,
+				105B2D182AFE6F2A00256FCA /* NamedObj.cpp in Sources */,
+				105B2D152AFE664600256FCA /* VecF.cpp in Sources */,
+				105B2D122AFE637400256FCA /* CounterM.cpp in Sources */,
 				105B2D0C2AFD1C8600256FCA /* ClassAndObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
