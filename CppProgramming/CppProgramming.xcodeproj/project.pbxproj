@@ -12,6 +12,10 @@
 		105B2D122AFE637400256FCA /* CounterM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D102AFE637400256FCA /* CounterM.cpp */; };
 		105B2D152AFE664600256FCA /* VecF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D132AFE664600256FCA /* VecF.cpp */; };
 		105B2D182AFE6F2A00256FCA /* NamedObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D162AFE6F2A00256FCA /* NamedObj.cpp */; };
+		105B2D1B2AFF8F3E00256FCA /* CharStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D192AFF8F3E00256FCA /* CharStack.cpp */; };
+		105B2D1D2AFF92A100256FCA /* CSMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D1C2AFF92A100256FCA /* CSMain.cpp */; };
+		105B2D202AFF949700256FCA /* Complex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D1E2AFF949700256FCA /* Complex1.cpp */; };
+		105B2D222AFF96AB00256FCA /* C1Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D212AFF96AB00256FCA /* C1Main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +43,12 @@
 		105B2D142AFE664600256FCA /* VecF.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VecF.hpp; sourceTree = "<group>"; };
 		105B2D162AFE6F2A00256FCA /* NamedObj.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NamedObj.cpp; sourceTree = "<group>"; };
 		105B2D172AFE6F2A00256FCA /* NamedObj.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NamedObj.hpp; sourceTree = "<group>"; };
+		105B2D192AFF8F3E00256FCA /* CharStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CharStack.cpp; sourceTree = "<group>"; };
+		105B2D1A2AFF8F3E00256FCA /* CharStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CharStack.hpp; sourceTree = "<group>"; };
+		105B2D1C2AFF92A100256FCA /* CSMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSMain.cpp; sourceTree = "<group>"; };
+		105B2D1E2AFF949700256FCA /* Complex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Complex1.cpp; sourceTree = "<group>"; };
+		105B2D1F2AFF949700256FCA /* Complex1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Complex1.hpp; sourceTree = "<group>"; };
+		105B2D212AFF96AB00256FCA /* C1Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C1Main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,12 @@
 				105B2D142AFE664600256FCA /* VecF.hpp */,
 				105B2D162AFE6F2A00256FCA /* NamedObj.cpp */,
 				105B2D172AFE6F2A00256FCA /* NamedObj.hpp */,
+				105B2D192AFF8F3E00256FCA /* CharStack.cpp */,
+				105B2D1A2AFF8F3E00256FCA /* CharStack.hpp */,
+				105B2D1C2AFF92A100256FCA /* CSMain.cpp */,
+				105B2D1E2AFF949700256FCA /* Complex1.cpp */,
+				105B2D1F2AFF949700256FCA /* Complex1.hpp */,
+				105B2D212AFF96AB00256FCA /* C1Main.cpp */,
 			);
 			path = CppProgramming;
 			sourceTree = "<group>";
@@ -144,9 +160,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				105B2D0F2AFD27BF00256FCA /* Person.cpp in Sources */,
+				105B2D1D2AFF92A100256FCA /* CSMain.cpp in Sources */,
 				105B2D182AFE6F2A00256FCA /* NamedObj.cpp in Sources */,
+				105B2D1B2AFF8F3E00256FCA /* CharStack.cpp in Sources */,
 				105B2D152AFE664600256FCA /* VecF.cpp in Sources */,
+				105B2D222AFF96AB00256FCA /* C1Main.cpp in Sources */,
 				105B2D122AFE637400256FCA /* CounterM.cpp in Sources */,
+				105B2D202AFF949700256FCA /* Complex1.cpp in Sources */,
 				105B2D0C2AFD1C8600256FCA /* ClassAndObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
