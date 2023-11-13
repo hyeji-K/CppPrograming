@@ -16,6 +16,11 @@
 		105B2D1D2AFF92A100256FCA /* CSMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D1C2AFF92A100256FCA /* CSMain.cpp */; };
 		105B2D202AFF949700256FCA /* Complex1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D1E2AFF949700256FCA /* Complex1.cpp */; };
 		105B2D222AFF96AB00256FCA /* C1Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D212AFF96AB00256FCA /* C1Main.cpp */; };
+		105B2D252B0258DA00256FCA /* Pencils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D232B0258DA00256FCA /* Pencils.cpp */; };
+		105B2D272B025A9F00256FCA /* PnclMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D262B025A9F00256FCA /* PnclMain.cpp */; };
+		105B2D2A2B02792500256FCA /* SafeIntArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D282B02792500256FCA /* SafeIntArray.cpp */; };
+		105B2D2D2B027C3200256FCA /* MyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D2B2B027C3200256FCA /* MyString.cpp */; };
+		105B2D2F2B0280D000256FCA /* MSMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D2E2B0280D000256FCA /* MSMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +54,14 @@
 		105B2D1E2AFF949700256FCA /* Complex1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Complex1.cpp; sourceTree = "<group>"; };
 		105B2D1F2AFF949700256FCA /* Complex1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Complex1.hpp; sourceTree = "<group>"; };
 		105B2D212AFF96AB00256FCA /* C1Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C1Main.cpp; sourceTree = "<group>"; };
+		105B2D232B0258DA00256FCA /* Pencils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pencils.cpp; sourceTree = "<group>"; };
+		105B2D242B0258DA00256FCA /* Pencils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pencils.hpp; sourceTree = "<group>"; };
+		105B2D262B025A9F00256FCA /* PnclMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PnclMain.cpp; sourceTree = "<group>"; };
+		105B2D282B02792500256FCA /* SafeIntArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SafeIntArray.cpp; sourceTree = "<group>"; };
+		105B2D292B02792500256FCA /* SafeIntArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SafeIntArray.hpp; sourceTree = "<group>"; };
+		105B2D2B2B027C3200256FCA /* MyString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyString.cpp; sourceTree = "<group>"; };
+		105B2D2C2B027C3200256FCA /* MyString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyString.hpp; sourceTree = "<group>"; };
+		105B2D2E2B0280D000256FCA /* MSMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MSMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +111,14 @@
 				105B2D1E2AFF949700256FCA /* Complex1.cpp */,
 				105B2D1F2AFF949700256FCA /* Complex1.hpp */,
 				105B2D212AFF96AB00256FCA /* C1Main.cpp */,
+				105B2D232B0258DA00256FCA /* Pencils.cpp */,
+				105B2D262B025A9F00256FCA /* PnclMain.cpp */,
+				105B2D242B0258DA00256FCA /* Pencils.hpp */,
+				105B2D282B02792500256FCA /* SafeIntArray.cpp */,
+				105B2D292B02792500256FCA /* SafeIntArray.hpp */,
+				105B2D2B2B027C3200256FCA /* MyString.cpp */,
+				105B2D2E2B0280D000256FCA /* MSMain.cpp */,
+				105B2D2C2B027C3200256FCA /* MyString.hpp */,
 			);
 			path = CppProgramming;
 			sourceTree = "<group>";
@@ -159,13 +180,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105B2D252B0258DA00256FCA /* Pencils.cpp in Sources */,
 				105B2D0F2AFD27BF00256FCA /* Person.cpp in Sources */,
+				105B2D2A2B02792500256FCA /* SafeIntArray.cpp in Sources */,
 				105B2D1D2AFF92A100256FCA /* CSMain.cpp in Sources */,
+				105B2D2F2B0280D000256FCA /* MSMain.cpp in Sources */,
 				105B2D182AFE6F2A00256FCA /* NamedObj.cpp in Sources */,
 				105B2D1B2AFF8F3E00256FCA /* CharStack.cpp in Sources */,
 				105B2D152AFE664600256FCA /* VecF.cpp in Sources */,
 				105B2D222AFF96AB00256FCA /* C1Main.cpp in Sources */,
+				105B2D272B025A9F00256FCA /* PnclMain.cpp in Sources */,
 				105B2D122AFE637400256FCA /* CounterM.cpp in Sources */,
+				105B2D2D2B027C3200256FCA /* MyString.cpp in Sources */,
 				105B2D202AFF949700256FCA /* Complex1.cpp in Sources */,
 				105B2D0C2AFD1C8600256FCA /* ClassAndObject.cpp in Sources */,
 			);
