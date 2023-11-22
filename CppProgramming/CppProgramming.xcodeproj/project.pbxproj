@@ -29,6 +29,13 @@
 		105B2D492B0C933100256FCA /* FigMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D482B0C933100256FCA /* FigMain.cpp */; };
 		105B2D542B0C96EC00256FCA /* MIMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D532B0C96EC00256FCA /* MIMain.cpp */; };
 		105B2D622B0C9BC100256FCA /* VBMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D612B0C9BC100256FCA /* VBMain.cpp */; };
+		105B2D652B0D729C00256FCA /* StackT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D632B0D729C00256FCA /* StackT.cpp */; };
+		105B2D682B0D77B000256FCA /* SwapFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D662B0D77B000256FCA /* SwapFunc.cpp */; };
+		105B2D6B2B0D78E900256FCA /* sortFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D692B0D78E800256FCA /* sortFT.cpp */; };
+		105B2D6E2B0D829700256FCA /* Vector1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D6C2B0D829700256FCA /* Vector1.cpp */; };
+		105B2D702B0D8D2500256FCA /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D6F2B0D8D2500256FCA /* Vector2.cpp */; };
+		105B2D722B0D8EEC00256FCA /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D712B0D8EEC00256FCA /* Vector3.cpp */; };
+		105B2D742B0D946D00256FCA /* PBookMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 105B2D732B0D946D00256FCA /* PBookMap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +98,16 @@
 		105B2D5C2B0C9ADA00256FCA /* VBSParttime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VBSParttime.hpp; sourceTree = "<group>"; };
 		105B2D5F2B0C9AE900256FCA /* VBEmployee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VBEmployee.hpp; sourceTree = "<group>"; };
 		105B2D612B0C9BC100256FCA /* VBMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VBMain.cpp; sourceTree = "<group>"; };
+		105B2D632B0D729C00256FCA /* StackT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackT.cpp; sourceTree = "<group>"; };
+		105B2D642B0D729C00256FCA /* StackT.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackT.hpp; sourceTree = "<group>"; };
+		105B2D662B0D77B000256FCA /* SwapFunc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SwapFunc.cpp; sourceTree = "<group>"; };
+		105B2D672B0D77B000256FCA /* SwapFunc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SwapFunc.hpp; sourceTree = "<group>"; };
+		105B2D692B0D78E800256FCA /* sortFT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sortFT.cpp; sourceTree = "<group>"; };
+		105B2D6A2B0D78E800256FCA /* sortFT.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sortFT.hpp; sourceTree = "<group>"; };
+		105B2D6C2B0D829700256FCA /* Vector1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector1.cpp; sourceTree = "<group>"; };
+		105B2D6F2B0D8D2500256FCA /* Vector2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2.cpp; sourceTree = "<group>"; };
+		105B2D712B0D8EEC00256FCA /* Vector3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3.cpp; sourceTree = "<group>"; };
+		105B2D732B0D946D00256FCA /* PBookMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PBookMap.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +186,16 @@
 				105B2D5F2B0C9AE900256FCA /* VBEmployee.hpp */,
 				105B2D5C2B0C9ADA00256FCA /* VBSParttime.hpp */,
 				105B2D612B0C9BC100256FCA /* VBMain.cpp */,
+				105B2D632B0D729C00256FCA /* StackT.cpp */,
+				105B2D642B0D729C00256FCA /* StackT.hpp */,
+				105B2D662B0D77B000256FCA /* SwapFunc.cpp */,
+				105B2D672B0D77B000256FCA /* SwapFunc.hpp */,
+				105B2D692B0D78E800256FCA /* sortFT.cpp */,
+				105B2D6A2B0D78E800256FCA /* sortFT.hpp */,
+				105B2D6C2B0D829700256FCA /* Vector1.cpp */,
+				105B2D6F2B0D8D2500256FCA /* Vector2.cpp */,
+				105B2D712B0D8EEC00256FCA /* Vector3.cpp */,
+				105B2D732B0D946D00256FCA /* PBookMap.cpp */,
 			);
 			path = CppProgramming;
 			sourceTree = "<group>";
@@ -237,18 +264,25 @@
 				105B2D472B0C91EA00256FCA /* Triangle.cpp in Sources */,
 				105B2D2F2B0280D000256FCA /* MSMain.cpp in Sources */,
 				105B2D492B0C933100256FCA /* FigMain.cpp in Sources */,
+				105B2D702B0D8D2500256FCA /* Vector2.cpp in Sources */,
 				105B2D372B0C6AB600256FCA /* Student1.cpp in Sources */,
 				105B2D442B0C90DC00256FCA /* Circle.cpp in Sources */,
 				105B2D182AFE6F2A00256FCA /* NamedObj.cpp in Sources */,
 				105B2D1B2AFF8F3E00256FCA /* CharStack.cpp in Sources */,
+				105B2D652B0D729C00256FCA /* StackT.cpp in Sources */,
 				105B2D152AFE664600256FCA /* VecF.cpp in Sources */,
 				105B2D392B0C772100256FCA /* PArrMain.cpp in Sources */,
 				105B2D222AFF96AB00256FCA /* C1Main.cpp in Sources */,
+				105B2D6B2B0D78E900256FCA /* sortFT.cpp in Sources */,
 				105B2D542B0C96EC00256FCA /* MIMain.cpp in Sources */,
+				105B2D722B0D8EEC00256FCA /* Vector3.cpp in Sources */,
 				105B2D622B0C9BC100256FCA /* VBMain.cpp in Sources */,
+				105B2D742B0D946D00256FCA /* PBookMap.cpp in Sources */,
 				105B2D272B025A9F00256FCA /* PnclMain.cpp in Sources */,
 				105B2D3B2B0C78F700256FCA /* Sbinding.cpp in Sources */,
+				105B2D6E2B0D829700256FCA /* Vector1.cpp in Sources */,
 				105B2D122AFE637400256FCA /* CounterM.cpp in Sources */,
+				105B2D682B0D77B000256FCA /* SwapFunc.cpp in Sources */,
 				105B2D2D2B027C3200256FCA /* MyString.cpp in Sources */,
 				105B2D202AFF949700256FCA /* Complex1.cpp in Sources */,
 				105B2D0C2AFD1C8600256FCA /* ClassAndObject.cpp in Sources */,
